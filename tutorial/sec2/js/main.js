@@ -9,4 +9,4 @@ let vm = new Vue({
                 return this.firstName + ' ' + this.lastName;
             }
         }
-});
+})
