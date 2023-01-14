@@ -1,12 +1,29 @@
+body {
+    text-align: center;
+}
+
+#app {
+    width: 80%;
+    height: 90vh;
+    margin: 5px auto;
+    background-color: #ccc;
+}
+
+
 ul,
 li {
-    margin: 0 0 6px 0;
+    display: block;
+    text-align: center;
+    margin: 0 0 8px 0;
     padding: 0;
     list-style: none;
 }
 
 ul {
-    margin-top: 30px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    margin-top: 50px;
 }
 
  li div {
