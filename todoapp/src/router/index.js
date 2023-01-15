@@ -8,6 +8,10 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/blog',
+    name: 'blog',
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
