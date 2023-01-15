@@ -1,6 +1,4 @@
-body {
-    text-align: center;
-}
+
 
 #app {
     width: 80%;
@@ -22,7 +20,6 @@ li {
 ul {
     width: 100%;
     display: block;
-    background-color: #fff;
     margin-top: 50px;
 }
 
