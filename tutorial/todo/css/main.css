@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+#app {
+    width: 80%;
+    height: 90vh;
+    margin: 5px auto;
+    background-color: #ccc;
+}
+
+
+ul,
+li {
+    display: block;
+    text-align: center;
+    margin: 0 0 8px 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+ li div {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding-right: 0px;
+    box-sizing: border-box;
+    white-space: break-all;
+}
+
+li button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.done {
+    color: #F00;
+}
