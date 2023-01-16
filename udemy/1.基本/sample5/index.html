@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuejs udemy tutorial</title>
+
+    <style>
+        .active {
+            border: 1px solid red;
+        }
+        .text-danger {
+            color: red;
+        }
+    </style>
+
+    <!-- vuejs import  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <!-- リアルDOM -->
+    <div style="color:blue; font-size: 20px;">styleテスト</div>
+    <div class="active text-danger">classテスト</div>
+
+
+    <div id="app">
+        <div style="" class=""></div>
+        <div style="{fontSize: fontSize}">Styleテスト</div>
+    </div>
+
+
+
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    fontSize: '20px'
+                }
+            }
+        })
+    </script>
+</body>
+</html>

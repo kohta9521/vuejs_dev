@@ -15,6 +15,10 @@
         <a :href="google">Googeleへのリンク</a>
         <br>
         <a :href="book.url">{{ book.title  }}</a>
+        <img src="" alt="" target="">
+        <input type="text" name="" value="" plaveholder="">
+        <input v-bind=""{name.formInput.name, placeHolder:form} type="text">
+        <input type="text " v-bind=""formInput>
     </div>
 
     <script>
@@ -27,6 +31,10 @@
                     book: {
                         title: '本のタイトル',
                         url: 'http://google.com'
+                    },
+                    formInput {
+                        name: 'your_name',
+                        placeHolder: 'お名前を入力して下さい'
                     }
                 }
             }
